@@ -14,17 +14,17 @@ int main(void)
 
 	for (i = 1; i <= 50; ++i)
 	{
-		if (j != 20365011074)
-		{
-		printf("%ld, ", j);
-		}
-	       	else
-		{
-		printf("%ld\n", j);
-		}
-		sum = j + k;
-		j = k;
-		k = sum;
+	if (j != 20365011074)
+	{
+	printf("%ld, ", j);
+	}
+	else
+	{
+	printf("%ld\n", j);
+	}
+	sum = j + k;
+	j = k;
+	k = sum;
 	}
 return (0);
 }
