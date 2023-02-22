@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 0; i < endPoint; i++)
 	if (i % 3 == 0 || i % 5 == 0)
-	return += i;
+	result += i;
 printf("%d\n", result);
 return (0);
 }
