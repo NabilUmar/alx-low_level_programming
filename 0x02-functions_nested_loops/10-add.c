@@ -4,10 +4,8 @@
  * Description:Function that adds two integers and returns the result
  * Return: Result
  */
-int add(int a, int b)
-{
-int res;
 
-res = a + b;
-return (res);
+int add(int num1, int num2)
+{
+	return (num1 + num2);
 }
